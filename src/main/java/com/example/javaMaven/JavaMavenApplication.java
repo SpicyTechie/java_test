@@ -13,6 +13,8 @@ public class JavaMavenApplication {
     }
     @GetMapping("/hello")
     public String hello() {
-      system.out.print("Hello From docker swarm")
+        System.out.println("Hello From docker swarm");
+        return "Hello From docker swarm";
     }
+
 }
