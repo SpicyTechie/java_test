@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "vigneshajri2003/javaMaven"
+        IMAGE_NAME = "vigneshajri2003/javamaven"
     }
 
     stages {
